@@ -1,0 +1,89 @@
+# Translation file for VIN Decoder Add-On
+msgid ""
+msgstr ""
+"Project-Id-Version: VIN Decoder Add-On 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: Your Name <your@email.com>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "VIN Decoder Settings"
+msgstr ""
+
+msgid "VIN Decoder"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Field Mapping"
+msgstr ""
+
+msgid "Logging"
+msgstr ""
+
+msgid "Integrations"
+msgstr ""
+
+msgid "API Configuration"
+msgstr ""
+
+msgid "API Provider"
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+msgid "Enable Logging"
+msgstr ""
+
+msgid "Log Level"
+msgstr ""
+
+msgid "Make"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Trim"
+msgstr ""
+
+msgid "Engine"
+msgstr ""
+
+msgid "Vehicle Type"
+msgstr ""
+
+msgid "Body Class"
+msgstr ""
+
+msgid "Manufacturer"
+msgstr ""
+
+msgid "Invalid VIN format. VIN must be 17 characters."
+msgstr ""
+
+msgid "VIN decoded successfully!"
+msgstr ""
+
+msgid "Error decoding VIN. Please check the VIN and try again."
+msgstr ""
+
+msgid "Decoding VIN..."
+msgstr ""
+
+msgid "Security check failed."
+msgstr ""
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""

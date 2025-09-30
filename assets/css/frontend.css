@@ -1,0 +1,82 @@
+/* VIN Decoder Frontend Styles */
+
+/* VIN Field Indicator */
+input[data-vin-decoder-active="true"] {
+  position: relative;
+}
+
+/* Status Indicator */
+.vin-decoder-status {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.vin-decoder-status.decoding {
+  color: #2271b1;
+}
+
+.vin-decoder-status.decoding::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border: 2px solid #2271b1;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: vin-decoder-spin 0.6s linear infinite;
+  vertical-align: middle;
+}
+
+.vin-decoder-status.success {
+  color: #00a32a;
+}
+
+.vin-decoder-status.success::before {
+  content: "✓";
+  margin-right: 4px;
+}
+
+.vin-decoder-status.error {
+  color: #d63638;
+}
+
+.vin-decoder-status.error::before {
+  content: "✕";
+  margin-right: 4px;
+}
+
+/* Populated Field Animation */
+.vin-decoder-populated {
+  animation: vin-decoder-highlight 2s ease;
+}
+
+@keyframes vin-decoder-highlight {
+  0% {
+    background-color: #fff;
+  }
+  10% {
+    background-color: #e7f5e7;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+
+@keyframes vin-decoder-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+  .vin-decoder-status {
+    display: block;
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}
